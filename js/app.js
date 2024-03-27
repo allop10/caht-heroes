@@ -1,7 +1,7 @@
 
 
 var url = window.location.href; 
-var swLocation = '/caht-heroes/sw.js'; 
+var swLocation = '/chat-heroes/sw.js'; 
 
 if(navigator.serviceWorker){
     navigator.serviceWorker.register('/sw.js')
